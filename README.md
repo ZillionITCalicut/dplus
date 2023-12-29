@@ -4,7 +4,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
+# After a super admin adds a project, this is the MongoDB _id of the added project.
+Path for login Super admin:  Base_Url/SuperAdmin
+Super Admin Credentials
+UN :zillion
+PW :zillion
+
+```
+bash
 npm i
 # to install
 
