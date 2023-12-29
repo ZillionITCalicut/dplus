@@ -1,0 +1,14 @@
+.googleReview
+{
+    border: 1px solid #e7e7e7;
+    text-align: center;
+}
+/* Add this CSS to style the rating stars */
+.rating {
+    color: gold; /* Set the color of the stars */
+    font-size: 24px; /* Adjust the font size of the stars */
+}
+
+.star {
+    margin-right: 5px; /* Adjust the spacing between stars */
+}

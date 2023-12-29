@@ -1,0 +1,16 @@
+/* Add this to your styles or a separate stylesheet */
+.menu-item-container {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    /* Adjust the scale factor for the desired zoom level */
+}
+
+/* sidebar.css */
+.menu-item.active {
+    background-color: #011229; /* Change the color for the active item */
+    color: #fa9696; /* Change the text color for the active item */
+}

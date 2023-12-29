@@ -1,0 +1,71 @@
+/* Global.css */
+
+.circle-pointer {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    background-color: #007bff; /* Change the background color as needed */
+    display: inline-block;
+  }
+  
+  
+/*----------------------------------
+  Back To Top
+------------------------------------*/
+.s-back-to-top {
+  position: fixed;
+  right: 3.125rem;
+  bottom: -3.125rem;
+  display: block;
+  width: 1.875rem;
+  height: 3rem;
+  z-index: 9;
+  background: #fff;
+  border-radius: 3.125rem;
+  text-align: center;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.s-back-to-top:before {
+  display: block;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-family: themify;
+  color: #fff;
+  line-height: 3rem;
+  content: "\e627";
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.s-back-to-top:hover {
+  background: #fff;
+}
+
+.s-back-to-top:hover:before {
+  color: #13b1cd;
+}
+
+.s-back-to-top:focus,
+.s-back-to-top:hover {
+  text-decoration: none;
+}
+
+/* The button becomes visible */
+.s-back-to-top.-is-visible {
+  bottom: 3.125rem;
+  opacity: .8;
+}
+
+.s-back-to-top.-is-visible:hover {
+  opacity: 1;
+}
+
+/* If the user keeps scrolling down, the button is out of focus and becomes less visible */
+.s-back-to-top.-zoom-out {
+  opacity: .6;
+}

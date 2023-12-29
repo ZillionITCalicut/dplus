@@ -1,0 +1,28 @@
+/* FullScreenButton.css */
+.full-screen-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .full-screen-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .full-screen-button.active {
+    background-color: #e74c3c;
+  }
+  
+  .full-screen-button.active:hover {
+    background-color: #c0392b;
+  }
+  

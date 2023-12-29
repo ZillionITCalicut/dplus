@@ -1,0 +1,157 @@
+
+
+.gallery-area {
+  background: #0c0f16;
+}
+
+/* line 5, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+.gallery-area .single-gallery {
+  position: relative;
+}
+
+/* line 7, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+.gallery-area .single-gallery::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+
+/* line 21, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+.gallery-area .single-gallery:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 27, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+.gallery-area .single-gallery .gallery-img {
+  position: relative;
+  height: 565px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 34, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+.gallery-area .single-gallery .thumb-content-box {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+  z-index: 2;
+}
+
+/* line 47, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+.gallery-area .single-gallery .thumb-content-box .thumb-content {
+  position: absolute;
+  padding-left: 40px;
+  bottom: 42px;
+  display: flex;
+  align-items: end;
+}
+
+/* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+.gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 48px;
+  margin: 0;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
+  /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+  .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+  .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+  .gallery-area .single-gallery .thumb-content-box .thumb-content h3 {
+    font-size: 32px;
+  }
+}
+
+/* line 67, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+.gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
+  font-size: 39px;
+  display: block;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
+  /* line 67, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+  .gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
+    font-size: 29px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  /* line 67, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+  .gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  /* line 67, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+  .gallery-area .single-gallery .thumb-content-box .thumb-content h3 span {
+    font-size: 29px;
+  }
+}
+
+/* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+.gallery-area .single-gallery .thumb-content-box .thumb-content a {
+  color: #fff;
+  background: #ff0000;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-left: 75px;
+}
+
+/* line 91, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+.gallery-area .single-gallery .thumb-content-box .thumb-content a:hover {
+  background: #fff;
+  color: #ff0000;
+}
+
+/* line 101, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_gallery.scss */
+.single-gallery:hover .gallery-img-thumb,
+.single-gallery:hover .thumb-content-box {
+  opacity: 1;
+  visibility: visible;
+}
+

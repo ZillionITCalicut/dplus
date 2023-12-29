@@ -1,0 +1,8 @@
+.border-primary {
+    --bs-border-opacity: 1;
+    border-color: #fff !important;
+  }
+  .careertext
+  {
+    font-family: 'Abel', sans-serif;
+  }

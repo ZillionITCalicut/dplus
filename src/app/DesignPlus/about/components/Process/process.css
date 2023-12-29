@@ -1,0 +1,37 @@
+.g-display-inline-block--xs {
+    display: inline-block;
+  }
+  .g-width-100--xs {
+    width: 6.25rem;
+  }
+  .g-height-100--xs {
+    height: 6.25rem;
+  }
+  .g-font-size-38--xs {
+    font-size: 2.375rem !important;
+  }  
+  .g-color--primary {
+    color: #000 !important;
+  }
+  .g-bg-color--white {
+    background-color: #fff !important;
+  }
+  .g-box-shadow__dark-lightest-v4 {
+    box-shadow: 0 0.3125rem 1rem 0 rgba(34, 35, 36, 0.2);
+  }
+  .g-padding-x-20--xs {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .g-padding-y-20--xs {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  .g-radius--circle {
+    border-radius: 50% !important;
+  }
+  .g-padding-y-80--xs {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  

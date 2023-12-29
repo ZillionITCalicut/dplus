@@ -1,0 +1,38 @@
+@keyframes sliceSwipeUpAnimation {
+  0% {
+      transform: translateY(100%);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  100% {
+      transform: translateY(0);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.animate-slice-swipe-up {
+  animation: sliceSwipeUpAnimation 0.8s ease-in-out;
+}
+
+.bannerimg
+{
+  max-height: 1000px;
+  min-height: 1000px;
+}
+/* Responsive styles for mobile */
+@media only screen and (max-width: 600px) {
+  .bannerimg {
+    max-height: 300px; /* Adjust the max height for mobile */
+    min-height: 300px; /* Adjust the min height for mobile */
+  }
+
+
+}
+
+/* Responsive styles for tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .bannerimg {
+    max-height: 500px; /* Adjust the max height for tablets */
+    min-height: 500px; /* Adjust the min height for tablets */
+  }
+  
+}

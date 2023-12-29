@@ -1,0 +1,119 @@
+/* :: 15.0 Blog Area CSS */
+.single-blog-post {
+  position: relative;
+  z-index: 10;
+}
+
+.single-blog-post .blog-post-thumb {
+  position: relative;
+  z-index: 1;
+}
+
+.single-blog-post .post-content {
+  position: relative;
+  z-index: 1;
+  width: 80%;
+  border: 2px solid #eaeaea;
+  padding: 50px 40px 30px;
+  left: 10%;
+  text-align: center;
+  margin-top: -145px;
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .single-blog-post .post-content {
+    width: 90%;
+    left: 5%;
+    margin-top: -25px;
+    padding: 40px 30px 20px;
+  }
+}
+
+.single-blog-post .post-content .post-date {
+  position: absolute;
+  left: 50%;
+  top: -26.5px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.single-blog-post .post-content .post-title {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.single-blog-post .post-content .post-title:hover,
+.single-blog-post .post-content .post-title:focus {
+  color: #cb8670;
+  
+}
+
+@media only screen and (max-width: 767px) {
+  .blogimg {
+    height: 320px !important;
+    width: 1000px;
+  }
+  .single-blog-post .post-content .post-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+.single-blog-post .post-content .post-metta {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.single-blog-post .post-content .post-metta a {
+  font-size: 12px;
+  color: #363636;
+  position: relative;
+  z-index: 2;
+}
+
+.single-blog-post .post-content .post-metta a:first-child {
+  margin-right: 30px;
+}
+
+.single-blog-post .post-content .post-metta a:first-child::after {
+  position: absolute;
+  top: -2px;
+  right: -18px;
+  content: '|';
+  z-index: 10;
+}
+
+
+
+.palatin-btn {
+  background-color: #000;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  min-width: 123px;
+  height: 53px;
+  color: #ffffff;
+  border: none;
+  border-radius: 0;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 53px;
+  text-transform: capitalize;
+}
+
+.palatin-btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+
+}
+
+.blogimg {
+  height: 400px;
+  width: 1000px;
+}
