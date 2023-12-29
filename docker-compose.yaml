@@ -1,0 +1,23 @@
+version: "3.5"
+services:
+  backend:
+    build:
+      context: ./
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGODB_URI=mongodb://192.168.1.11:27017
+    depends_on:
+      - mongo
+    volumes:
+      - ./backend:/app # Mount the host's backend directory into the container
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db # Use a named volume to persist MongoDB data
+
+volumes:
+  mongo-data:
